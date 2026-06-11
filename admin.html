@@ -306,7 +306,7 @@
       border-bottom: 1px solid var(--border);
       white-space: nowrap;
       position: sticky;
-      top: 58px;
+      top: var(--topbar-h, 62px);
     }
 
     tbody tr:nth-child(even) { background: rgba(255,255,255,.018); }
@@ -603,6 +603,14 @@ document.getElementById("logoutBtn").addEventListener("click", () => {
 document.getElementById("refreshBtn").addEventListener("click", carregarTudo);
 
 if (sessionStorage.getItem("admin_auth") === "1") abrirDashboard();
+
+// Ajusta o top do thead ao tamanho real da topbar
+function ajustarTopbar() {
+  const h = document.querySelector(".topbar")?.offsetHeight || 62;
+  document.documentElement.style.setProperty("--topbar-h", h + "px");
+}
+ajustarTopbar();
+window.addEventListener("resize", ajustarTopbar);
 
 // ══════════════════════════════════════════
 //  ABRIR DASHBOARD
