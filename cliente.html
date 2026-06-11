@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ContrataAí — Para clientes</title>
+  <meta name="description" content="Encontre profissionais avaliados para elétrica, hidráulica, ar-condicionado, limpeza, jardinagem, automotivo, marketing e reparos." />
+  <link rel="stylesheet" href="./styles.css" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="./index.html">Contrata<span>Aí</span></a>
+      <button class="menu-button" id="menuButton" aria-label="Abrir menu">☰</button>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Início</a>
+        <a href="#servicos-ofertados">Serviços</a>
+        <a href="#exemplo-orcamento">Exemplo de orçamento</a>
+        <a class="btn btn-primary btn-small" href="#cadastro-cliente">Entrar na lista</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero-grid">
+        <div>
+          <div class="page-eyebrow">🏠 Para clientes</div>
+          <h1>Contrate serviços para sua casa com <span>mais segurança.</span></h1>
+          <p class="page-subtitle">Encontre profissionais avaliados, receba orçamentos claros, acompanhe o serviço e tenha garantia registrada em um só lugar.</p>
+          <div class="hero-actions">
+            <a href="#cadastro-cliente" class="btn btn-primary">Preciso contratar um serviço</a>
+            <a href="#servicos-ofertados" class="btn btn-secondary">Ver serviços disponíveis</a>
+          </div>
+          <div class="page-mini-points">
+            <span>✅ Profissionais avaliados</span>
+            <span>📄 Orçamento claro</span>
+            <span>🛡️ Garantia registrada</span>
+          </div>
+        </div>
+
+        <article class="quote-preview-card">
+          <h3>Exemplo de orçamento claro</h3>
+          <p>Manutenção de ar-condicionado split</p>
+          <div class="quote-row"><span>Mão de obra</span><strong>R$ 180,00</strong></div>
+          <div class="quote-row"><span>Material estimado</span><strong>R$ 45,00</strong></div>
+          <div class="quote-row"><span>Prazo estimado</span><strong>2 horas</strong></div>
+          <div class="quote-row"><span>Garantia</span><strong>90 dias</strong></div>
+          <div class="quote-total">Total estimado: R$ 225,00</div>
+          <ul class="clean-list">
+            <li>Inclui limpeza, testes e revisão básica</li>
+            <li>Não inclui peça não identificada previamente</li>
+            <li>Qualquer alteração precisa ser aprovada</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section early-services-section" id="servicos-ofertados">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">Serviços disponíveis na plataforma</span>
+          <h2>Encontre o melhor profissional<br />para sua demanda.</h2>
+          <p>
+            O ContrataAí conecta você a profissionais para manutenção, instalação,
+            reparos e serviços residenciais, com orçamento claro, acompanhamento
+            do atendimento e garantia registrada.
+          </p>
+        </div>
+
+        <div class="service-intent-grid">
+          <article class="service-intent-card featured has-card-bg card-eletrica">
+            <div class="service-icon">⚡</div>
+            <h3>Elétrica</h3>
+            <p>Tomadas, chuveiros, disjuntores, iluminação, quadro elétrico e pequenos reparos.</p>
+          </article>
+
+          <article class="service-intent-card has-card-bg card-hidraulica">
+            <div class="service-icon">🚰</div>
+            <h3>Hidráulica</h3>
+            <p>Vazamentos, torneiras, descargas, pias, registros, caixas d’água e encanamento.</p>
+          </article>
+
+          <article class="service-intent-card has-card-bg card-ar-condicionado">
+            <div class="service-icon">❄️</div>
+            <h3>Ar-condicionado</h3>
+            <p>Limpeza, instalação, manutenção, diagnóstico, gás e troca de componentes.</p>
+          </article>
+
+          <article class="service-intent-card has-card-bg card-limpeza-domestica">
+            <div class="service-icon">🧹</div>
+            <h3>Limpeza doméstica</h3>
+            <p>Limpeza comum, pesada, pós-obra, organização e manutenção de ambientes.</p>
+          </article>
+
+          <article class="service-intent-card has-card-bg card-jardinagem">
+            <div class="service-icon">🌿</div>
+            <h3>Jardinagem</h3>
+            <p>Poda, grama, limpeza de quintal, manutenção de jardim e pequenas melhorias externas.</p>
+          </article>
+
+          <article class="service-intent-card has-card-bg card-seguranca-cameras">
+            <div class="service-icon">🛡️</div>
+            <h3>Segurança e câmeras</h3>
+            <p>Câmeras, interfones, alarmes, cerca elétrica e ajustes de segurança residencial.</p>
+          </article>
+
+          <article class="service-intent-card has-card-bg card-portao-eletronico">
+            <div class="service-icon">🚪</div>
+            <h3>Portão eletrônico</h3>
+            <p>Motor, controle, trilho, sensores, manutenção e pequenos ajustes de funcionamento.</p>
+          </article>
+
+          <article class="service-intent-card has-card-bg card-reparos-gerais">
+            <div class="service-icon">🛠️</div>
+            <h3>Reparos gerais</h3>
+            <p>Montagem, pintura leve, instalação, pequenos consertos e manutenção residencial.</p>
+          </article>
+
+          <article class="service-intent-card has-card-bg card-marketing">
+            <div class="service-icon">📣</div>
+            <h3>Marketing</h3>
+            <p>Artes, redes sociais, tráfego pago, identidade visual e divulgação para negócios locais.</p>
+          </article>
+
+          <article class="service-intent-card has-card-bg card-mecanica-automotiva">
+            <div class="service-icon">🚗</div>
+            <h3>Automotivo</h3>
+            <p>Mecânica, estética automotiva, higienização, polimento e manutenção preventiva.</p>
+          </article>
+
+          <article class="service-intent-card has-card-bg card-barbearia">
+            <div class="service-icon">💈</div>
+            <h3>Barbearia</h3>
+            <p>Corte, barba, atendimento agendado e cuidados pessoais com profissionais cadastrados.</p>
+          </article>
+
+        </div>
+
+        <div class="platform-purpose">
+          <div>
+            <strong>Nosso objetivo</strong>
+            <p>
+              Tornar a contratação de serviços mais prática, segura e organizada,
+              evitando orçamento confuso, profissional sem histórico e garantia perdida no WhatsApp.
+            </p>
+          </div>
+
+          <div>
+            <strong>Como o ContrataAí ajuda</strong>
+            <p>
+              Você solicita o serviço, recebe orçamentos claros, escolhe o profissional,
+              acompanha o andamento e mantém o histórico registrado.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="problem-section">
+      <div class="container problem-grid">
+        <article class="problem-card">
+          <h2>Você já passou por isso?</h2>
+          <ul>
+            <li>Chamou alguém e a pessoa demorou para responder.</li>
+            <li>Recebeu preço solto sem saber o que estava incluso.</li>
+            <li>Perdeu garantia em conversa de WhatsApp.</li>
+            <li>Ficou com medo de contratar alguém sem referência.</li>
+          </ul>
+        </article>
+        <article class="solution-card">
+          <h2>O ContrataAí organiza tudo.</h2>
+          <ul>
+            <li>Pedido guiado com categoria, texto e fotos.</li>
+            <li>Orçamento padronizado e mais transparente.</li>
+            <li>Status do serviço do pedido à conclusão.</li>
+            <li>Histórico e garantia salvos na plataforma.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Vantagens para clientes</h2>
+          <p>O foco é fazer você contratar com menos dúvida, menos risco e mais praticidade.</p>
+        </div>
+        <div class="benefits-grid">
+          <article class="benefit-card"><span>⚡</span><h3>Pedido rápido</h3><p>Explique o problema pelo celular e envie fotos para facilitar o orçamento.</p></article>
+          <article class="benefit-card"><span>✅</span><h3>Profissionais avaliados</h3><p>Veja histórico, especialidade e avaliações antes de escolher.</p></article>
+          <article class="benefit-card"><span>📄</span><h3>Orçamento claro</h3><p>Valor, prazo, garantia, itens inclusos e itens não inclusos no mesmo lugar.</p></article>
+          <article class="benefit-card"><span>📍</span><h3>Acompanhamento</h3><p>Saiba se o pedido está aberto, orçado, aceito, agendado ou concluído.</p></article>
+          <article class="benefit-card"><span>🛡️</span><h3>Garantia registrada</h3><p>Guarde garantia e histórico sem depender de prints ou conversas perdidas.</p></article>
+          <article class="benefit-card"><span>🏠</span><h3>Histórico da casa</h3><p>Tenha registro de serviços, custos, fotos e próximas manutenções.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section categories-section">
+      <div class="container">
+        <div class="section-title"><h2>Categorias iniciais</h2><p>Comece pelos serviços mais comuns e importantes da casa.</p></div>
+        <div class="categories">
+          <span>❄️ Ar-condicionado</span><span>⚡ Elétrica</span><span>🚰 Hidráulica</span><span>🧹 Limpeza doméstica</span><span>🌱 Jardinagem</span><span>🛠️ Reparos gerais</span><span>🚪 Portão eletrônico</span><span>🛡️ Câmeras e segurança</span>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section example-budget-section" id="exemplo-orcamento">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">Exemplo de orçamento</span>
+          <h2>Veja exatamente o que você está aceitando antes do serviço começar.</h2>
+          <p>
+            No ContrataAí, o orçamento não é só um preço solto. Ele mostra valor,
+            prazo, garantia, validade da proposta, o que está incluso e o que não está.
+          </p>
+        </div>
+
+        <div class="budget-example-card">
+          <div class="budget-sidebar">
+            <div class="budget-brand">
+              <div class="budget-falcon">🦅</div>
+              <strong>Contrata<span>Aí</span></strong>
+              <small>O serviço certo, na hora certa.</small>
+            </div>
+
+            <div class="budget-sidebar-items">
+              <div>
+                <span>🛡️</span>
+                <p>Profissional verificado</p>
+              </div>
+              <div>
+                <span>⭐</span>
+                <p>Avaliações reais</p>
+              </div>
+              <div>
+                <span>🔒</span>
+                <p>Garantia registrada</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="budget-main">
+            <div class="budget-header">
+              <div>
+                <h3>Orçamento de Serviço</h3>
+                <p>Conserto de ar-condicionado</p>
+              </div>
+
+              <div class="budget-verified">✅ Profissional verificado</div>
+            </div>
+
+            <div class="budget-info-grid">
+              <div>
+                <span>Cliente</span>
+                <strong>João Lima</strong>
+              </div>
+              <div>
+                <span>Profissional</span>
+                <strong>FrioMax Refrigeração</strong>
+              </div>
+              <div>
+                <span>Técnico responsável</span>
+                <strong>Marcos Silva</strong>
+              </div>
+              <div>
+                <span>Equipamento</span>
+                <strong>Split 12.000 BTUs</strong>
+              </div>
+              <div>
+                <span>Problema relatado</span>
+                <strong>Liga, mas não gela</strong>
+              </div>
+              <div>
+                <span>Diagnóstico</span>
+                <strong>Vazamento de gás + capacitor desgastado</strong>
+              </div>
+            </div>
+
+            <div class="budget-price-card">
+              <div>
+                <span>🔧 Mão de obra</span>
+                <strong>R$ 180,00</strong>
+              </div>
+              <div>
+                <span>🧰 Material</span>
+                <strong>R$ 165,00</strong>
+              </div>
+              <div class="budget-total">
+                <span>💰 Total</span>
+                <strong>R$ 345,00</strong>
+              </div>
+            </div>
+
+
+            <div class="budget-materials">
+              <div class="budget-materials-header">
+                <h4>🧰 Materiais utilizados</h4>
+                <span>Total: R$ 165,00</span>
+              </div>
+
+              <div class="materials-table">
+                <div class="materials-row materials-head">
+                  <span>Item</span>
+                  <span>Qtd.</span>
+                  <span>Valor</span>
+                </div>
+
+                <div class="materials-row">
+                  <span>Capacitor 35µF</span>
+                  <span>1 un.</span>
+                  <strong>R$ 65,00</strong>
+                </div>
+
+                <div class="materials-row">
+                  <span>Gás refrigerante</span>
+                  <span>carga parcial</span>
+                  <strong>R$ 80,00</strong>
+                </div>
+
+                <div class="materials-row">
+                  <span>Vedação/conexões</span>
+                  <span>kit</span>
+                  <strong>R$ 20,00</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="budget-meta-grid">
+              <div>
+                <span>⏱️ Prazo estimado</span>
+                <strong>2 horas</strong>
+              </div>
+              <div>
+                <span>🛡️ Garantia</span>
+                <strong>90 dias</strong>
+              </div>
+              <div>
+                <span>📅 Validade</span>
+                <strong>48 horas</strong>
+              </div>
+            </div>
+
+            <div class="budget-lists">
+              <div>
+                <h4>✅ Inclui</h4>
+                <ul>
+                  <li>diagnóstico</li>
+                  <li>reparo do vazamento</li>
+                  <li>recarga de gás</li>
+                  <li>troca do capacitor</li>
+                  <li>testes finais</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4>❌ Não inclui</h4>
+                <ul>
+                  <li>troca de placa eletrônica</li>
+                  <li>limpeza completa</li>
+                  <li>substituição da tubulação</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="budget-actions">
+              <button type="button" class="budget-accept">Aceitar orçamento</button>
+              <button type="button" class="budget-adjust">Pedir ajuste</button>
+              <button type="button" class="budget-reject">Recusar</button>
+            </div>
+
+            <p class="budget-note">
+              🔒 Seus dados ficam protegidos e o orçamento permanece registrado na plataforma.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section class="forms-section" id="cadastro-cliente">
+      <div class="container form-full">
+        <article class="form-card wide">
+          <h2>Entre na lista de espera como cliente</h2>
+          <p class="form-intro">Cadastre-se para ser avisado quando o ContrataAí estiver atendendo sua cidade.</p>
+          <form id="clientForm" data-form-type="Cliente">
+            <div class="two-fields">
+              <label>Nome<input name="nome" type="text" placeholder="Seu nome" required /></label>
+              <label>WhatsApp<input name="whatsapp" type="tel" placeholder="(99) 99999-9999" required /></label>
+            </div>
+            <div class="two-fields">
+              <label>Cidade<input name="cidade" type="text" placeholder="Imperatriz - MA" required /></label>
+              <label>Bairro<input name="bairro" type="text" placeholder="Ex: Centro, Bacuri, Nova Imperatriz" /></label>
+            </div>
+            <div class="two-fields">
+              <label>Serviço de interesse
+                <select name="servico" required>
+                  <option value="">Selecione uma opção</option>
+                  <option>Ar-condicionado</option>
+                  <option>Elétrica</option>
+                  <option>Hidráulica</option>
+                  <option>Limpeza doméstica</option>
+                  <option>Jardinagem</option>
+                  <option>Portão eletrônico</option>
+                  <option>Reparos gerais</option>
+                  <option>Segurança e câmeras</option>
+                  <option>Automotivo</option>
+                  <option>Barbearia</option>
+                  <option>Marketing</option>
+                </select>
+              </label>
+              <label>Quando gostaria de usar?
+                <select name="prazo">
+                  <option value="">Selecione uma opção</option><option>Assim que lançar</option><option>Nos próximos 30 dias</option><option>Só quero acompanhar</option>
+                </select>
+              </label>
+            </div>
+            <label class="lgpd-label">
+              <input type="checkbox" name="lgpd" required />
+              <span>
+                Li e aceito a
+                <a href="./privacidade.html" target="_blank">Política de Privacidade</a>
+                e os
+                <a href="./termos.html" target="_blank">Termos de Uso</a>,
+                e autorizo o ContrataAí a usar meus dados para contato sobre lista de espera,
+                cadastro, validação de profissionais e comunicação relacionada à plataforma.
+              </span>
+            </label>
+            <button class="btn btn-primary" type="submit">Quero ser avisado no lançamento</button>
+          </form>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <footer>
+    <div class="container footer-content">
+      <p>© 2026 ContrataAí. Todos os direitos reservados.</p>
+      <p>Do pedido à garantia, tudo em um só lugar.</p>
+      <div class="footer-links">
+        <a href="./privacidade.html">Política de Privacidade</a>
+        <span>·</span>
+        <a href="./termos.html">Termos de Uso</a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script>const supabaseLib = supabase;</script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

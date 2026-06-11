@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>ContrataAí — Conectando clientes e profissionais</title>
+  <meta name="description" content="O ContrataAí conecta clientes e profissionais para solicitar serviços, enviar orçamentos, acompanhar atendimentos e registrar garantias." />
+
+  <link rel="stylesheet" href="./styles.css" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="#topo" aria-label="Página inicial ContrataAí">
+        Contrata<span>Aí</span>
+      </a>
+
+      <button class="menu-button" id="menuButton" aria-label="Abrir menu">
+        ☰
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#como-funciona">Como funciona</a>
+        <a href="cliente.html">Para clientes</a>
+        <a href="profissional.html">Para profissionais</a>
+        <a href="#servicos-ofertados">Serviços</a>
+        <a class="btn btn-primary btn-small" href="#lista">Entrar na lista</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="topo">
+    <section class="hero">
+      <div class="hero-mascot" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="badge">⚡ Em breve na sua cidade</div>
+
+          <h1>
+            Conectando demandas reais
+            <span>aos profissionais certos.</span>
+          </h1>
+
+          <p class="hero-description">
+            O ContrataAí conecta clientes e profissionais em uma plataforma simples,
+            organizada e confiável para solicitar serviços, enviar orçamentos,
+            acompanhar atendimentos e registrar garantias.
+          </p>
+
+          <div class="hero-actions">
+            <a href="cliente.html" class="btn btn-primary">Preciso contratar um serviço</a>
+            <a href="profissional.html" class="btn btn-secondary">Sou profissional</a>
+          </div>
+
+          <div class="hero-points">
+            <article class="point">
+              <strong>Pedido simples</strong>
+              <span>Explique sua demanda com poucos dados.</span>
+            </article>
+
+            <article class="point">
+              <strong>Orçamento claro</strong>
+              <span>Veja valor, prazo, garantia e detalhes.</span>
+            </article>
+
+            <article class="point">
+              <strong>Histórico salvo</strong>
+              <span>Acompanhe o serviço e guarde registros.</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="app-preview" aria-label="Prévia do app ContrataAí">
+          <div class="phone">
+            <div class="phone-top">
+              <div class="phone-logo">Contrata<span>Aí</span></div>
+              <div class="phone-icons">🔔 👤</div>
+            </div>
+
+            <div class="search-box">🔎 Descreva o que você precisa</div>
+
+            <div class="resolve-card">
+              <div>
+                <h2>Resolver agora</h2>
+                <p>Peça um serviço em menos de 1 minuto</p>
+              </div>
+              <span>→</span>
+            </div>
+
+            <h3 class="phone-section-title">Categorias de serviços</h3>
+
+            <div class="mini-grid">
+              <div class="mini-card"><span>❄️</span>Ar-condicionado</div>
+              <div class="mini-card"><span>⚡</span>Elétrica</div>
+              <div class="mini-card"><span>🚰</span>Hidráulica</div>
+              <div class="mini-card"><span>🛡️</span>Segurança</div>
+              <div class="mini-card"><span>🚪</span>Portão</div>
+              <div class="mini-card"><span>🛠️</span>Reparos</div>
+            </div>
+
+            <div class="service-card">
+              <div>
+                <strong>Limpeza de ar-condicionado</strong>
+                <span>Agendado para hoje, 14:00</span>
+              </div>
+              <button>Acompanhar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section early-services-section" id="servicos-ofertados">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">Serviços disponíveis na plataforma</span>
+          <h2>Encontre o melhor profissional<br />para sua demanda.</h2>
+          <p>
+            O ContrataAí conecta você a profissionais para manutenção, instalação,
+            reparos e serviços residenciais, com orçamento claro, acompanhamento
+            do atendimento e garantia registrada.
+          </p>
+        </div>
+
+        <div class="service-intent-grid">
+          <article class="service-intent-card featured has-card-bg card-eletrica">
+            <div class="service-icon">⚡</div>
+            <h3>Elétrica</h3>
+            <p>Tomadas, chuveiros, disjuntores, iluminação, quadro elétrico e pequenos reparos.</p>
+          </article>
+
+          <article class="service-intent-card has-card-bg card-hidraulica">
+            <div class="service-icon">🚰</div>
+            <h3>Hidráulica</h3>
+            <p>Vazamentos, torneiras, descargas, pias, registros, caixas d’água e encanamento.</p>
+          </article>
+
+          <article class="service-intent-card has-card-bg card-ar-condicionado">
+            <div class="service-icon">❄️</div>
+            <h3>Ar-condicionado</h3>
+            <p>Limpeza, instalação, manutenção, diagnóstico, gás e troca de componentes.</p>
+          </article>
+
+          <article class="service-intent-card has-card-bg card-limpeza-domestica">
+            <div class="service-icon">🧹</div>
+            <h3>Limpeza doméstica</h3>
+            <p>Limpeza comum, pesada, pós-obra, organização e manutenção de ambientes.</p>
+          </article>
+
+          <article class="service-intent-card has-card-bg card-jardinagem">
+            <div class="service-icon">🌿</div>
+            <h3>Jardinagem</h3>
+            <p>Poda, grama, limpeza de quintal, manutenção de jardim e pequenas melhorias externas.</p>
+          </article>
+
+          <article class="service-intent-card has-card-bg card-seguranca-cameras">
+            <div class="service-icon">🛡️</div>
+            <h3>Segurança e câmeras</h3>
+            <p>Câmeras, interfones, alarmes, cerca elétrica e ajustes de segurança residencial.</p>
+          </article>
+
+          <article class="service-intent-card has-card-bg card-portao-eletronico">
+            <div class="service-icon">🚪</div>
+            <h3>Portão eletrônico</h3>
+            <p>Motor, controle, trilho, sensores, manutenção e pequenos ajustes de funcionamento.</p>
+          </article>
+
+          <article class="service-intent-card has-card-bg card-reparos-gerais">
+            <div class="service-icon">🛠️</div>
+            <h3>Reparos gerais</h3>
+            <p>Montagem, pintura leve, instalação, pequenos consertos e manutenção residencial.</p>
+          </article>
+
+          <article class="service-intent-card has-card-bg card-marketing">
+            <div class="service-icon">📣</div>
+            <h3>Marketing</h3>
+            <p>Artes, redes sociais, tráfego pago, identidade visual e divulgação para negócios locais.</p>
+          </article>
+
+          <article class="service-intent-card has-card-bg card-mecanica-automotiva">
+            <div class="service-icon">🚗</div>
+            <h3>Automotivo</h3>
+            <p>Mecânica, estética automotiva, higienização, polimento e manutenção preventiva.</p>
+          </article>
+
+          <article class="service-intent-card has-card-bg card-barbearia">
+            <div class="service-icon">💈</div>
+            <h3>Barbearia</h3>
+            <p>Corte, barba, atendimento agendado e cuidados pessoais com profissionais cadastrados.</p>
+          </article>
+
+        </div>
+
+        <div class="platform-purpose">
+          <div>
+            <strong>Nosso objetivo</strong>
+            <p>
+              Tornar a contratação de serviços mais prática, segura e organizada,
+              evitando orçamento confuso, profissional sem histórico e garantia perdida no WhatsApp.
+            </p>
+          </div>
+
+          <div>
+            <strong>Como o ContrataAí ajuda</strong>
+            <p>
+              Você solicita o serviço, recebe orçamentos claros, escolhe o profissional,
+              acompanha o andamento e mantém o histórico registrado.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="problem-section">
+      <div class="container problem-grid">
+        <article class="problem-card">
+          <h2>O problema não é só encontrar alguém.</h2>
+
+          <ul>
+            <li>É saber se o profissional é confiável.</li>
+            <li>É entender exatamente o que está sendo cobrado.</li>
+            <li>É manter prazo, garantia e combinado registrados.</li>
+          </ul>
+        </article>
+
+        <article class="solution-card">
+          <h2>O ContrataAí organiza essa contratação.</h2>
+
+          <ul>
+            <li>Você informa a demanda e recebe propostas organizadas.</li>
+            <li>Compara profissionais, valores, prazos e garantia.</li>
+            <li>Depois acompanha o atendimento e guarda o histórico.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="como-funciona" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Resolva seu problema em poucos passos</h2>
+          <p>
+            O ContrataAí foi pensado para ser simples, rápido e seguro para
+            clientes e profissionais.
+          </p>
+        </div>
+
+        <div class="steps">
+          <article class="step">
+            <span>1</span>
+            <h3>Escolha o serviço</h3>
+            <p>Selecione a categoria que você precisa.</p>
+          </article>
+
+          <article class="step">
+            <span>2</span>
+            <h3>Explique o problema</h3>
+            <p>Descreva a situação e envie fotos.</p>
+          </article>
+
+          <article class="step">
+            <span>3</span>
+            <h3>Receba orçamentos</h3>
+            <p>Compare valores, prazos, avaliações e garantia.</p>
+          </article>
+
+          <article class="step">
+            <span>4</span>
+            <h3>Acompanhe tudo</h3>
+            <p>Veja o status do serviço do pedido à conclusão.</p>
+          </article>
+
+          <article class="step">
+            <span>5</span>
+            <h3>Guarde a garantia</h3>
+            <p>Histórico, fotos, orçamento e garantia ficam salvos.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="diferenciais" class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Por que usar o ContrataAí?</h2>
+          <p>
+            Não é só encontrar profissional. É contratar com mais segurança,
+            controle e praticidade.
+          </p>
+        </div>
+
+        <div class="features">
+          <article class="feature">
+            <span>✅</span>
+            <h3>Profissionais avaliados</h3>
+            <p>Escolha com base em histórico e reputação.</p>
+          </article>
+
+          <article class="feature">
+            <span>📄</span>
+            <h3>Orçamento claro</h3>
+            <p>Entenda a proposta antes de aceitar.</p>
+          </article>
+
+          <article class="feature">
+            <span>⚡</span>
+            <h3>Praticidade total</h3>
+            <p>Fluxo simples para abrir, comparar e acompanhar pedidos.</p>
+          </article>
+
+          <article class="feature">
+            <span>📍</span>
+            <h3>Acompanhamento</h3>
+            <p>Status do atendimento visível durante o processo.</p>
+          </article>
+
+          <article class="feature">
+            <span>🛡️</span>
+            <h3>Garantia registrada</h3>
+            <p>Garantia vinculada ao serviço realizado.</p>
+          </article>
+
+          <article class="feature">
+            <span>🏠</span>
+            <h3>Histórico da casa</h3>
+            <p>Histórico útil para futuras manutenções.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+<section class="forms-section" id="lista">
+      <div class="container">
+        <div class="section-title">
+          <h2>Escolha seu caminho no ContrataAí</h2>
+          <p>Cada público tem uma página própria, com vantagens, funções e cadastro separado.</p>
+        </div>
+
+        <div class="audience-grid">
+          <article class="audience-card audience-client">
+            <span class="audience-icon">🏠</span>
+            <h3>Sou cliente</h3>
+            <p>Quero contratar serviços para minha casa com profissionais avaliados, orçamento claro e garantia registrada.</p>
+            <ul>
+              <li>Pedido simples por categoria, texto e foto</li>
+              <li>Orçamentos organizados</li>
+              <li>Acompanhamento e histórico do serviço</li>
+            </ul>
+            <a href="./cliente.html" class="btn btn-primary">Ir para página do cliente</a>
+          </article>
+
+          <article class="audience-card audience-pro">
+            <span class="audience-icon">🛠️</span>
+            <h3>Sou profissional</h3>
+            <p>Quero receber pedidos, criar reputação, mostrar meu serviço e crescer com clientes da minha cidade.</p>
+            <ul>
+              <li>Perfil profissional e avaliações verificadas</li>
+              <li>Pedidos mais organizados</li>
+              <li>Benefícios para quem trabalha bem</li>
+            </ul>
+            <a href="./profissional.html" class="btn btn-secondary">Ir para página do profissional</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Perguntas frequentes</h2>
+          <p>Algumas respostas rápidas sobre o pré-lançamento.</p>
+        </div>
+
+        <div class="faq">
+          <details>
+            <summary>O ContrataAí já está funcionando?</summary>
+            <p>
+              Estamos em fase de pré-lançamento, cadastro de profissionais e
+              validação das primeiras cidades.
+            </p>
+          </details>
+
+          <details>
+            <summary>Vai ter app?</summary>
+            <p>
+              Sim. A primeira versão será web/mobile, funcionando direto pelo
+              celular. Depois poderá virar app nas lojas.
+            </p>
+          </details>
+
+          <details>
+            <summary>O cadastro é gratuito?</summary>
+            <p>
+              Durante a fase de lançamento, clientes e profissionais poderão
+              entrar na lista de espera gratuitamente.
+            </p>
+          </details>
+
+          <details>
+            <summary>Como os profissionais serão avaliados?</summary>
+            <p>
+              Por atendimento, qualidade, pontualidade, comunicação, fotos do
+              serviço e avaliações dos clientes.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="container">
+        <h2>Precisou? <span>ContrataAí.</span></h2>
+        <p>
+          Serviços para sua casa com mais praticidade, profissionais avaliados e
+          garantia registrada.
+        </p>
+
+        <div class="hero-actions center">
+          <a href="cliente.html" class="btn btn-primary">Preciso de um serviço</a>
+          <a href="profissional.html" class="btn btn-secondary">Sou profissional</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <footer>
+    <div class="container footer-content">
+      <p>© 2026 ContrataAí. Todos os direitos reservados.</p>
+      <p>Do pedido à garantia, tudo em um só lugar.</p>
+      <div class="footer-links">
+        <a href="./privacidade.html">Política de Privacidade</a>
+        <span>·</span>
+        <a href="./termos.html">Termos de Uso</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SDKs externos -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script>const supabaseLib = supabase;</script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <script src="./script.js"></script>
+</body>
+</html>
